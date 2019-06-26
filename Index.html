@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8' />
+		<meta name='name' content='LORENTAN CPU-Scheduling' />
+		<meta name='author' content='Jhonnatan osorio y Lorenzo flevez' />
+		>
+		
+		<title>Planificador de Procesos</title>
+				
+		
+		<script src="js/console.js"></script>
+		<script src="js/tooltip.js"></script>
+		<script src="js/dialog.js"></script>
+		<script src="js/types.js"></script>
+		
+		<script src="js/ui/togglepanel.js"></script>
+		
+		<script src="js/scheduling.js"></script>
+		<script src="js/scheduling_gantt.js"></script>
+		<script src="js/scheduling_stats.js"></script>
+		<script src="js/scheduling_ui.js"></script>
+		
+		<script src="js/animos.js"></script>
+
+<!--		
+		<script src="http://animos.kotainy.de/feedback.js"></script>
+		<script src="http://animos.kotainy.de/update-cpu.js"></script>
+-->
+	</head>
+	
+	<body>
+		<div id="warning"><noscript><span>You need to have JavaScript enabled in your browser!</span></noscript></div>
+		
+		<div id="container" class="invisible">
+			<div id="tooltip" class="ui-corner-all"></div>
+			
+			<div id="header">
+				<div class="header_left">
+					<a href="http://www.tu-dortmund.de/uni/International/index.html" target="_blank" alt="TU Dortmund"><img src="img/logo_tu.png"></a>
+				</div>
+				<div class="header_right" onclick="window.open('http://ess.cs.tu-dortmund.de/EN/Home/index.html','_blank');">
+					<div class="header_right_inner"><img src="img/ess-wuerfel.gif" alt="Embedded System Software"></div>
+				</div>
+				<div class="header_center">
+					<div class="header_center_content">
+						<h1>Planificador de Procesos</h1> <span id="buildVersion"></span><br />
+						<h2>Projecto por Flevez Lorenzo y Osorio Jhonnatan</h2><br />
+					</div>
+				</div>
+				<div class="clearFix"></div>
+			</div>
+							
+			<div id="consoleContainer">
+				<ul id="console"></ul>
+			</div>
+		</div>		
+	</body>
+</html>
